@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "@vue-email/render": "0.0.3",
-    "@vue-email/components": "0.0.9"
+    "@vue-email/components": "0.0.11"
   }
 }
