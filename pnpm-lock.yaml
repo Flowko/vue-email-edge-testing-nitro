@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vue-email/components':
-        specifier: 0.0.13
-        version: 0.0.13(vue@3.4.29)
+        specifier: 0.0.16
+        version: 0.0.16(vue@3.4.29)
       '@vue-email/render':
         specifier: 0.0.3
         version: 0.0.3
@@ -756,8 +756,8 @@ packages:
     peerDependencies:
       vue: ^3.4.27
 
-  '@vue-email/components@0.0.13':
-    resolution: {integrity: sha512-TUU3MC+DaiGbdMQcQNHd3qDqdOxnaD3a+QQ0K1eXvnoiJyQzG3XG7jrMBQRcvbKHpVe0FBgqvpw9ToCf4ESPrg==}
+  '@vue-email/components@0.0.16':
+    resolution: {integrity: sha512-/24gXqbrdr1dzgk7W5SBD3XgE3fGPBP2sTxTvFgPtKx2O7b5pVhbeD61PpVd9g0Ka282RuF0yV9QU7L0L5/2mw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       vue: ^3.4.29
@@ -802,8 +802,8 @@ packages:
     peerDependencies:
       vue: ^3.4.27
 
-  '@vue-email/markdown@0.0.4':
-    resolution: {integrity: sha512-zIRhtwlBZBW30ZQJmdaRstp0DrnKuogINnRpYd8l2Jq6QB4IhmekGfsGtDUY8TI8Ux+ViWtAnooIpJYDGDb6Aw==}
+  '@vue-email/markdown@0.0.7':
+    resolution: {integrity: sha512-AxMpxo0A20lFiED7l1nJy6Y+fDYHknYW6u1HZ7F2QbDUihtinwAWU9pBFDX9SSHg9Ihkf3KeitvGf4YHiYlXRA==}
     peerDependencies:
       vue: ^3.4.27
 
@@ -2805,7 +2805,7 @@ snapshots:
     dependencies:
       vue: 3.4.29
 
-  '@vue-email/components@0.0.13(vue@3.4.29)':
+  '@vue-email/components@0.0.16(vue@3.4.29)':
     dependencies:
       '@vue-email/body': 0.0.3(vue@3.4.29)
       '@vue-email/button': 0.0.3(vue@3.4.29)
@@ -2820,7 +2820,7 @@ snapshots:
       '@vue-email/html': 0.0.3(vue@3.4.29)
       '@vue-email/img': 0.0.3(vue@3.4.29)
       '@vue-email/link': 0.0.3(vue@3.4.29)
-      '@vue-email/markdown': 0.0.4(vue@3.4.29)
+      '@vue-email/markdown': 0.0.7(vue@3.4.29)
       '@vue-email/preview': 0.0.3(vue@3.4.29)
       '@vue-email/render': 0.0.3
       '@vue-email/row': 0.0.3(vue@3.4.29)
@@ -2863,7 +2863,7 @@ snapshots:
     dependencies:
       vue: 3.4.29
 
-  '@vue-email/markdown@0.0.4(vue@3.4.29)':
+  '@vue-email/markdown@0.0.7(vue@3.4.29)':
     dependencies:
       marked: 7.0.4
       vue: 3.4.29
