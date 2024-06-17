@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vue-email/components':
-        specifier: 0.0.11
-        version: 0.0.11(vue@3.4.29)
+        specifier: 0.0.13
+        version: 0.0.13(vue@3.4.29)
       '@vue-email/render':
         specifier: 0.0.3
         version: 0.0.3
@@ -756,8 +756,8 @@ packages:
     peerDependencies:
       vue: ^3.4.27
 
-  '@vue-email/components@0.0.11':
-    resolution: {integrity: sha512-QFtoJEQLBBfqK/iqjn/kM2jaK5fd8s9JJ0JbmluAfiRD0v1R5c8cdfWoFEAL05wCukOKbz7LtdGmJOqr0U/imw==}
+  '@vue-email/components@0.0.13':
+    resolution: {integrity: sha512-TUU3MC+DaiGbdMQcQNHd3qDqdOxnaD3a+QQ0K1eXvnoiJyQzG3XG7jrMBQRcvbKHpVe0FBgqvpw9ToCf4ESPrg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       vue: ^3.4.29
@@ -799,6 +799,11 @@ packages:
 
   '@vue-email/link@0.0.3':
     resolution: {integrity: sha512-AvX5wxXACrxqyLaooIDQBsz/8Q6FDSVGDg0Lo1opUZKEW80s68zI+FUhI3kuByVEogzIhfdpq9rc1yGmkUUh8A==}
+    peerDependencies:
+      vue: ^3.4.27
+
+  '@vue-email/markdown@0.0.4':
+    resolution: {integrity: sha512-zIRhtwlBZBW30ZQJmdaRstp0DrnKuogINnRpYd8l2Jq6QB4IhmekGfsGtDUY8TI8Ux+ViWtAnooIpJYDGDb6Aw==}
     peerDependencies:
       vue: ^3.4.27
 
@@ -1553,6 +1558,11 @@ packages:
   make-dir@3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
+
+  marked@7.0.4:
+    resolution: {integrity: sha512-t8eP0dXRJMtMvBojtkcsA7n48BkauktUKzfkPSCq85ZMTJ0v76Rke4DYz01omYpPTUh4p/f7HePgRo3ebG8+QQ==}
+    engines: {node: '>= 16'}
+    hasBin: true
 
   merge-stream@2.0.0:
     resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==}
@@ -2795,7 +2805,7 @@ snapshots:
     dependencies:
       vue: 3.4.29
 
-  '@vue-email/components@0.0.11(vue@3.4.29)':
+  '@vue-email/components@0.0.13(vue@3.4.29)':
     dependencies:
       '@vue-email/body': 0.0.3(vue@3.4.29)
       '@vue-email/button': 0.0.3(vue@3.4.29)
@@ -2810,6 +2820,7 @@ snapshots:
       '@vue-email/html': 0.0.3(vue@3.4.29)
       '@vue-email/img': 0.0.3(vue@3.4.29)
       '@vue-email/link': 0.0.3(vue@3.4.29)
+      '@vue-email/markdown': 0.0.4(vue@3.4.29)
       '@vue-email/preview': 0.0.3(vue@3.4.29)
       '@vue-email/render': 0.0.3
       '@vue-email/row': 0.0.3(vue@3.4.29)
@@ -2850,6 +2861,11 @@ snapshots:
 
   '@vue-email/link@0.0.3(vue@3.4.29)':
     dependencies:
+      vue: 3.4.29
+
+  '@vue-email/markdown@0.0.4(vue@3.4.29)':
+    dependencies:
+      marked: 7.0.4
       vue: 3.4.29
 
   '@vue-email/preview@0.0.3(vue@3.4.29)':
@@ -3655,6 +3671,8 @@ snapshots:
   make-dir@3.1.0:
     dependencies:
       semver: 6.3.1
+
+  marked@7.0.4: {}
 
   merge-stream@2.0.0: {}
 
