@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@vue-email/components':
-        specifier: 0.0.16
-        version: 0.0.16(vue@3.4.29)
+        specifier: 0.0.17
+        version: 0.0.17(vue@3.4.29)
       '@vue-email/render':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.5
+        version: 0.0.5
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.0.5
@@ -756,8 +756,8 @@ packages:
     peerDependencies:
       vue: ^3.4.27
 
-  '@vue-email/components@0.0.16':
-    resolution: {integrity: sha512-/24gXqbrdr1dzgk7W5SBD3XgE3fGPBP2sTxTvFgPtKx2O7b5pVhbeD61PpVd9g0Ka282RuF0yV9QU7L0L5/2mw==}
+  '@vue-email/components@0.0.17':
+    resolution: {integrity: sha512-hGbYd7TjWiG+OYfoyk90SY5a1y7jeFEBfz+piSz/V2o24ZutSHigQrbt8gk/cxDzUBNqStrFHLsfi+KF7oDQoA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       vue: ^3.4.29
@@ -812,8 +812,12 @@ packages:
     peerDependencies:
       vue: ^3.4.27
 
-  '@vue-email/render@0.0.3':
-    resolution: {integrity: sha512-lCThQPI+aNTMKr9fP0kWHC0HsGkAmAhpV88clypXJHpP6ilaUooc3BZ+7Orm0zS+88INiU3bMKrdciK9YsfD/g==}
+  '@vue-email/render@0.0.4':
+    resolution: {integrity: sha512-xxNbEoLaj1dqXshn1ycm/tKdwn5st3+QA3zZw4gp18g9RGBB4DbvMTYZq3VGtZqZV5x5i+v6GlFLOiLAEU0y9g==}
+    engines: {node: '>=18.0.0'}
+
+  '@vue-email/render@0.0.5':
+    resolution: {integrity: sha512-MwXiciXaXSbFviqVow4lRUHffi83418ju8nPe54X/LLtivj8oC87/K7x+/RSbVc4anRxTw5F019A+81f1HDnhQ==}
     engines: {node: '>=18.0.0'}
 
   '@vue-email/row@0.0.3':
@@ -826,8 +830,8 @@ packages:
     peerDependencies:
       vue: ^3.4.27
 
-  '@vue-email/tailwind@0.1.8':
-    resolution: {integrity: sha512-4f7OfrRG3GQaGREgq/vDmkm8llwGbr2z0UcyrWlO0toXmJ/fSmtnBcipaXuFRh0q8QbKuxCaE+e+OBwvOPMXXw==}
+  '@vue-email/tailwind@0.1.9':
+    resolution: {integrity: sha512-3CH5bBAL8DTQfucWeMnM1uwE1vnnqvMvZsPMIdWnw87NQMRfj0dVkBRav7efZOrtowELM6VFHC0B1S3/rK5GPw==}
     peerDependencies:
       vue: ^3.4.29
 
@@ -2805,7 +2809,7 @@ snapshots:
     dependencies:
       vue: 3.4.29
 
-  '@vue-email/components@0.0.16(vue@3.4.29)':
+  '@vue-email/components@0.0.17(vue@3.4.29)':
     dependencies:
       '@vue-email/body': 0.0.3(vue@3.4.29)
       '@vue-email/button': 0.0.3(vue@3.4.29)
@@ -2822,10 +2826,10 @@ snapshots:
       '@vue-email/link': 0.0.3(vue@3.4.29)
       '@vue-email/markdown': 0.0.7(vue@3.4.29)
       '@vue-email/preview': 0.0.3(vue@3.4.29)
-      '@vue-email/render': 0.0.3
+      '@vue-email/render': 0.0.4
       '@vue-email/row': 0.0.3(vue@3.4.29)
       '@vue-email/section': 0.0.3(vue@3.4.29)
-      '@vue-email/tailwind': 0.1.8(vue@3.4.29)
+      '@vue-email/tailwind': 0.1.9(vue@3.4.29)
       '@vue-email/text': 0.0.3(vue@3.4.29)
       vue: 3.4.29
     transitivePeerDependencies:
@@ -2872,7 +2876,15 @@ snapshots:
     dependencies:
       vue: 3.4.29
 
-  '@vue-email/render@0.0.3':
+  '@vue-email/render@0.0.4':
+    dependencies:
+      html-to-text: 9.0.5
+      js-beautify: 1.15.1
+      vue: 3.4.29
+    transitivePeerDependencies:
+      - typescript
+
+  '@vue-email/render@0.0.5':
     dependencies:
       html-to-text: 9.0.5
       js-beautify: 1.15.1
@@ -2888,7 +2900,7 @@ snapshots:
     dependencies:
       vue: 3.4.29
 
-  '@vue-email/tailwind@0.1.8(vue@3.4.29)':
+  '@vue-email/tailwind@0.1.9(vue@3.4.29)':
     dependencies:
       vue: 3.4.29
 

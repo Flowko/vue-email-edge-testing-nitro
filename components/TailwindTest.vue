@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { defineProps, withDefaults } from 'vue'
 import { Body, Button, Column, Container, Head, Heading, Hr, Html, Img, Link, Preview, Row, Section, Tailwind, Text } from '@vue-email/components'
+import Test from './Test.vue'
 
 interface Props {
   invitedByUsername?: string
@@ -23,7 +24,15 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <Tailwind>
+  <Tailwind :config="{
+  theme: {
+    extend: {
+      colors: {
+        'primary': '#fcba03',
+      }
+    }
+  },
+  }">
     <Html>
       <Head />
       <Body class="bg-white my-auto mx-auto font-sans">
@@ -34,7 +43,7 @@ withDefaults(defineProps<Props>(), {
           <Heading class="text-black text-[24px] font-normal text-center p-0 my-[30px] mx-0">
             Join <strong>{{ teamName }}</strong> on <strong>Vercel</strong>
           </Heading>
-          <Text class="text-black text-[14px] leading-[24px]">
+          <Text class="text-primary text-[14px] leading-[24px]">
             Hello {{ username }},
           </Text>
           <Text class="text-black text-[14px] leading-[24px]">
@@ -70,13 +79,7 @@ withDefaults(defineProps<Props>(), {
               {{ inviteLink }}
             </Link>
           </Text>
-          <Hr class="border border-solid border-[#eaeaea] my-[26px] mx-0 w-full" />
-          <Text class="text-[#666666] text-[12px] leading-[24px]">
-            This invitation was intended for
-            <span class="text-black">{{ username }} </span>.This invite was sent from <span class="text-black">{{ inviteFromIp }}</span> located in
-            <span class="text-black">{{ inviteFromLocation }}</span>. If you were not xpecting this invitation, you can ignore this mail. If you are concerned about your account's safety, please reply to this mail to get in touch
-            with us.
-          </Text>
+          <Test :username="username" :inviteFromIp="inviteFromIp" :inviteFromLocation="inviteFromLocation" />
         </Container>
       </Body>
     </Html>

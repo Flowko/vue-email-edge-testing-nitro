@@ -11,7 +11,7 @@
     "@vitejs/plugin-vue": "^5.0.5"
   },
   "dependencies": {
-    "@vue-email/render": "0.0.3",
-    "@vue-email/components": "0.0.16"
+    "@vue-email/render": "0.0.5",
+    "@vue-email/components": "0.0.17"
   }
 }
