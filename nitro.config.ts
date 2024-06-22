@@ -8,5 +8,5 @@ export default defineNitroConfig({
       vue()
     ]
   },
-  preset: 'vercel-edge',
+  preset: 'cloudflare-pages',
 });
