@@ -30,7 +30,7 @@ export async function render<T extends Component>(
 
   const i18n = createI18n({
     legacy: false,
-    globalInjection: true,
+    globalInjection: false,
     locale: 'en',
     messages: {
       en: {
