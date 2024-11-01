@@ -14,6 +14,9 @@ importers:
       '@vue-email/render':
         specifier: ^0.0.9
         version: 0.0.9
+      '@vue-email/tailwind':
+        specifier: ^0.1.10
+        version: 0.1.10(vue@3.4.29)
       vue-i18n:
         specifier: 10.0.0-beta.1
         version: 10.0.0-beta.1(vue@3.4.29)
@@ -844,6 +847,11 @@ packages:
     resolution: {integrity: sha512-DPvDBmf3jPZGw8ZoIgs/lS3yt8H0BXMLniR0aTa6FhBPWJsXXaaQHDPY6h7jfeCgppgAoDRLZqiMnZXfqSTUWw==}
     peerDependencies:
       vue: ^3.4.27
+
+  '@vue-email/tailwind@0.1.10':
+    resolution: {integrity: sha512-FQUS713Vxvrq0uLAgAAeQ9pbQ9Mjza5+8qtiwIxsJgNbM53s1xdfExWSFcQgPlb8dWGgtwzerJ1nxGjL/w42KQ==}
+    peerDependencies:
+      vue: ^3.4.29
 
   '@vue-email/tailwind@0.1.9':
     resolution: {integrity: sha512-3CH5bBAL8DTQfucWeMnM1uwE1vnnqvMvZsPMIdWnw87NQMRfj0dVkBRav7efZOrtowELM6VFHC0B1S3/rK5GPw==}
@@ -2933,6 +2941,10 @@ snapshots:
       vue: 3.4.29
 
   '@vue-email/section@0.0.3(vue@3.4.29)':
+    dependencies:
+      vue: 3.4.29
+
+  '@vue-email/tailwind@0.1.10(vue@3.4.29)':
     dependencies:
       vue: 3.4.29
 

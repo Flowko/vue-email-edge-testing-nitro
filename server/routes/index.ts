@@ -1,4 +1,4 @@
-import Email from '../../components/I18nTest.vue'
+import Email from '../../components/TailwindTest.vue'
 
 export default eventHandler(async (event) => {
   const emailHtml = await render(Email, {
